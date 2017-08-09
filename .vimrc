@@ -57,7 +57,7 @@ set pastetoggle=<F2>
 set t_Co=256
 if &t_Co >= 256 || has("gui_running")
     " colorscheme desert256
-    " colorscheme mustang
+    colorscheme mustang
     " colorscheme distinguished
 
     syntax enable
@@ -65,7 +65,7 @@ if &t_Co >= 256 || has("gui_running")
     " let g:solarized_termcolors=16
     " let g:solarized_termtrans=1
     let g:solarized_visibility = "low"
-    colorscheme solarized
+    " colorscheme solarized
     let solarized_usetimer=0
 endif
 if &t_Co > 2 || has("gui_running")
